@@ -8,14 +8,17 @@ const Form = () => {
     const [show, setShow] = (false)
     const handleSubmit = (e)=>{
         e.preventDefault()
-
     }
+
+
 
 
   return (
     <div>
         <form onSubmit={handleSubmit}>
+            <label htmlFor="">Nombre</label>
             <input type="text" onChange={(e)=> setName(e.target.value)}/>
+            <label htmlFor="">Apellido</label>
             <input type="text" onChange={(e)=> setSurname(e.target.value)}/>
             <button>Enviar</button>
         </form>
