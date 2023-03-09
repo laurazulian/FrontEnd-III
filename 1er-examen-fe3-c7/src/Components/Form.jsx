@@ -39,8 +39,8 @@ return (
 
         ? 
         <Card
-          nombre= {person.name}
-          apellido = {person.surname}
+          name= {person.name}
+          surname = {person.surname}
         >
         </Card>
         :
